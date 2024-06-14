@@ -1,0 +1,34 @@
+.about-page-container h1 {
+    margin: 0 auto; /* Centers the container horizontally */
+    margin-left: 20px;
+  }
+  
+  
+  
+  .about-page-container p {
+    text-align: center;
+  }
+  .about-page-image {
+    text-align: center;
+    display: block;
+    margin: 50px; /* Centers the image horizontally */
+  }
+  
+  .img-fluid {
+    display: block; /* Ensures the images are centered horizontally */
+    margin: 20px auto; /* Adds 20px space from the top and bottom and centers the images horizontally */
+  }
+  
+  .footer {
+    margin: 20px auto; /* Adds 20px space from the top and bottom and centers the footer horizontally */
+    text-align: center; /* Aligns text in the footer to the center */
+  }
+  
+  .logo-container {
+    text-align: center;
+  }
+  
+  .figure-wrapper {
+    display: inline-block;
+  }
+  

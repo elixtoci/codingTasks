@@ -1,0 +1,28 @@
+.homepage-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .homepage-content {
+    text-align: center;
+  }
+  
+  .login-form,
+  .welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    padding: auto;
+
+    
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  

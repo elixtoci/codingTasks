@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NavigationMenu from './components/NavigationMenu';
+import HomePage from './components/HomePage';
+import ProductsPage from './components/ProductsPage';
+import AboutPage from './components/AboutPage';
+import TotalPrice from './components/TotalPrice';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+const App = () => {
+  const [totalPrice, setTotalPrice] = useState(0);
+
+  const handleBuy = (price) => {
+    setTotalPrice(totalPrice + price);
+  };
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <NavigationMenu />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <HomePage />
+            }
+          />
+          <Route
+            path="/products"
+            element={
+              <div>
+                <TotalPrice totalPrice={totalPrice} />
+                <ProductsPage onBuy={handleBuy} />
+              </div>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <div>
+                <TotalPrice totalPrice={totalPrice} />
+                <AboutPage totalPrice={totalPrice} />
+              </div>
+            }
+          />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
