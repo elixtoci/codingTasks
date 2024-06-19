@@ -55,14 +55,15 @@ Provides information about the online store.
 
 ## Screenshots
 
-- Home Page
-screenshots/home-page-screenshot.png
+### Home Page
+![Home Page](screenshots/home-page-screenshot.png)
 
-- Products Page
-screenshots/products-page-screenshot.png
+### Products Page
+![Products Page](screenshots/products-page-screenshot.png)
 
-- About Page
-screenshots/about-page-screenshot.png
+### About Page
+![About Page](screenshots/about-page-screenshot.png)
+
 
 
 ## Credits
