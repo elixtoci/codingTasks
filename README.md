@@ -61,7 +61,7 @@ screenshots/home-page-screenshot.png
 - Products Page
 screenshots/products-page-screenshot.png
 
--About Page
+- About Page
 screenshots/about-page-screenshot.png
 
 
