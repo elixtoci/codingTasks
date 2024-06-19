@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# my-online-store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Frontend application for an online store built with React and Bootstrap. Includes routes for home, products, and about pages.
 
-## Available Scripts
+### Home Page
+Displays a form where users can input their username. After clicking the login button, a welcome message with the username is shown.
 
-In the project directory, you can run:
+### Products Page
+Displays products using Bootstrap cards. Each card includes an image, price, title, and color. There is a "Buy" button on each card. Clicking the "Buy" button updates the total price displayed on the top right of the screen. The total price updates dynamically with each new purchase.
 
-### `npm start`
+### About Page
+Provides information about the online store.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
+- [Description](#description)
+  - [Home Page](#home-page)
+  - [Products Page](#products-page)
+  - [About Page](#about-page)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/my-online-store.git
+   cd my-online-store
 
-### `npm test`
+2. Install dependencies:
+   ```bash
+   npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+1. Start the application:
+   ```bash
+   npm start
+2. Open http://localhost:3000 to view it in your browser.
 
-### `npm run build`
+## Homepage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Enter a username in the input form and click the login button.
+- A welcome message with the username will be displayed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Products Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- View products displayed in Bootstrap cards.
+- Each card shows an image, price, title, and color of the product.
+- Click the "Buy" button on any product card to add to the total price.
 
-### `npm run eject`
+## About Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Provides information about the online store.
+- The total price is shown at the top right of the screen and updates with each purchase.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Home Page
+screenshots/home-page-screenshot.png
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Products Page
+screenshots/products-page-screenshot.png
 
-## Learn More
+-About Page
+screenshots/about-page-screenshot.png
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Credits
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Author: Elix Toci
+- GitHub: https://github.com/elixtoci
